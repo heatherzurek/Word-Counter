@@ -42,10 +42,10 @@ namespace WordCounter.Tests
       string findWord = "puppy";
       string searchForWord = "Would you like a puppy";
       Word newWord = new Word(findWord);
-      int expectedOut = 1;
+      int expectedOut = 0;
 
       newWord.SearchForWord(searchForWord);
-      int result = newWord.GetWordCount()
+      int result = newWord.GetWordCount();
       Assert.AreEqual(expectedOut, result);
     }
 
