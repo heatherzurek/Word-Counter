@@ -1,6 +1,6 @@
 namespace WordCounter.Models
 {
-  public class Word
+  public class WordCounter
   {
     private string _sentence;
 
@@ -13,6 +13,7 @@ namespace WordCounter.Models
     {
       return _sentence;
     }
+
 
   }
 
