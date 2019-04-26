@@ -37,7 +37,7 @@ namespace WordCounter.Tests
     }
 
     [TestMethod]
-    public void SearchForWord_SearchStringForWord_String()
+    public void SearchForWord_SearchStringForWord_Int()
     {
       string findWord = "puppy";
       string searchForWord = "Would you like a puppy";
@@ -45,7 +45,7 @@ namespace WordCounter.Tests
       int expectedOut = 1;
 
       newWord.SearchForWord(searchForWord);
-      int result = int.Parse(newWord.GetFindWord());
+      int result = newWord.GetWordCount()
       Assert.AreEqual(expectedOut, result);
     }
 
