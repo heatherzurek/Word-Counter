@@ -14,6 +14,11 @@ namespace WordCounter.Models
       return _findWord;
     }
 
+    public void SetFindWord(string newFindWord)
+    {
+      _findWord = newFindWord;
+    }
+
   }
 
 }

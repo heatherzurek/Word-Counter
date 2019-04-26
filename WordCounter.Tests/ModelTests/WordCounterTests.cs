@@ -24,5 +24,23 @@ namespace WordCounter.Tests
       Assert.AreEqual(findWord, result);
     }
 
+    // [TestMethod]
+    // public void GetUserInput_ReturnsUserInput_String()
+    // {
+    //   string
+    // }
+
+    [TestMethod]
+    public void SetFindWord_SetFindWord_String()
+    {
+        string oldFindWord = "puppy";
+        string newFindWord = "puppydog";
+        Word newWord = new Word(oldFindWord);
+
+        newWord.SetFindWord(newFindWord);
+        string result = newWord.GetFindWord();
+        Assert.AreEqual(newFindWord, result);
+    }
+
   }
 }
