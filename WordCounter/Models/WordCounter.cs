@@ -43,6 +43,5 @@ namespace WordCounter.Models
       }
       return _wordCount;
     }
-    // put a method for how m any times the word occurs here
   }
 }
