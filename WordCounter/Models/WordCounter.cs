@@ -34,5 +34,6 @@ namespace WordCounter.Models
 
       }
     }
+    // put a method for how m any times the word occurs here
   }
 }

@@ -10,24 +10,24 @@ namespace WordCounter.Tests
     [TestMethod]
     public void WordConstructor_CreatesInstanceOfWord_Word()
     {
-      Word newWord = new Word("dog");
+      Word newWord = new Word("catdog");
       Assert.AreEqual(typeof(Word), newWord.GetType());
     }
 
     [TestMethod]
     public void GetFindWord_ReturnsFindWord_String()
     {
-      string findWord = "puppy";
-      Word newWord = new Word("puppy");
+      string findWord = "puppykitten";
+      Word newWord = new Word("puppykitten");
 
       string result = newWord.GetFindWord();
       Assert.AreEqual(findWord, result);
     }
 
     [TestMethod]
-    public void SetFindWord_SetFindWord_String()
+    public void SetFindWord_SetFindWord_Int()
     {
-        string oldFindWord = "puppy";
+        string oldFindWord = "puppykitten";
         string newFindWord = "puppydog";
         Word newWord = new Word(oldFindWord);
 
@@ -37,10 +37,10 @@ namespace WordCounter.Tests
     }
 
     [TestMethod]
-    public void SearchForWord_SearchStringForWord_Int()
+    public void SearchForWord_SearchStringForWord_String()
     {
-      string findWord = "dog";
-      string searchForWord = "I own a dog";
+      string findWord = "puppy";
+      string searchForWord = "Would you like a puppy";
       Word newWord = new Word(findWord);
       int expectedOut = 1;
 
@@ -48,6 +48,8 @@ namespace WordCounter.Tests
       int result = int.Parse(newWord.GetFindWord());
       Assert.AreEqual(expectedOut, result);
     }
+
+    //i need a test here to add how many times the word occurs in total
 
   }
 }
