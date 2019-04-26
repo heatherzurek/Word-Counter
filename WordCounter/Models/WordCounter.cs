@@ -3,7 +3,7 @@ namespace WordCounter.Models
   public class Word
   {
     private string _findWord;
-    private string _wordCount;
+    private int _wordCount = 0;
 
 
     public Word (string findWord)
@@ -16,7 +16,7 @@ namespace WordCounter.Models
       return _findWord;
     }
     //added word count getter
-    public string GetWordCount()
+    public int GetWordCount()
     {
       return _wordCount;
     }
@@ -27,7 +27,7 @@ namespace WordCounter.Models
       _findWord = newFindWord;
     }
 
-    public int SearchForWord(int userInput)
+    public int SearchForWord(string userInput)
     {
       int _wordCount = 0;
       string searchForWord = userInput;
