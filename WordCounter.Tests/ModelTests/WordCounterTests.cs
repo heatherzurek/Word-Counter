@@ -14,17 +14,6 @@ namespace WordCounter.Tests
       Assert.AreEqual(typeof(Word), newWord.GetType());
     }
 
-    // [TestMethod]
-    // public void GetSentence_ReturnsSentence_String()
-    // {
-    //   string sentence = "Lets walk the dog";
-    //   Word newWord = new Word(sentence);
-    //
-    //   string result = newWord.GetSentence();
-    //
-    //   Assert.AreEqual(sentence, result);
-    // }
-
     [TestMethod]
     public void GetFindWord_ReturnsFindWord_String()
     {
