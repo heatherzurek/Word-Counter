@@ -42,5 +42,8 @@ namespace WordCounter.Tests
         Assert.AreEqual(newFindWord, result);
     }
 
+    [TestMethod]
+    public void 
+
   }
 }
