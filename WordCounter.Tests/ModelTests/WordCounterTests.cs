@@ -24,12 +24,6 @@ namespace WordCounter.Tests
       Assert.AreEqual(findWord, result);
     }
 
-    // [TestMethod]
-    // public void GetUserInput_ReturnsUserInput_String()
-    // {
-    //   string
-    // }
-
     [TestMethod]
     public void SetFindWord_SetFindWord_String()
     {
@@ -43,7 +37,17 @@ namespace WordCounter.Tests
     }
 
     [TestMethod]
-    public void 
+    public void SearchForWord_SearchStringForWord_Int()
+    {
+      string findWord = "dog";
+      string searchForWord = "I own a dog";
+      Word newWord = new Word(findWord);
+      int expectedOut = 1;
+
+      newWord.SearchForWord(searchForWord);
+      int result = int.Parse(newWord.GetFindWord());
+      Assert.AreEqual(expectedOut, result);
+    }
 
   }
 }
