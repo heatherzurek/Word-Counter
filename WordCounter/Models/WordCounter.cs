@@ -1,19 +1,23 @@
 namespace WordCounter.Models
 {
-  public class WordCounter
+  public class Word
   {
-    private string _sentence;
+    private string _findWord;
 
-    public Word (string sentence)
+    public Word (string findWord)
     {
-      _sentence = sentence;
+      _findWord = findWord;
     }
 
-    public string GetSentence()
-    {
-      return _sentence;
-    }
+    // public string GetSentence()
+    // {
+    //   return _sentence;
+    // }
 
+    public string GetFindWord()
+    {
+      return _findWord;
+    }
 
   }
 

@@ -14,15 +14,25 @@ namespace WordCounter.Tests
       Assert.AreEqual(typeof(Word), newWord.GetType());
     }
 
+    // [TestMethod]
+    // public void GetSentence_ReturnsSentence_String()
+    // {
+    //   string sentence = "Lets walk the dog";
+    //   Word newWord = new Word(sentence);
+    //
+    //   string result = newWord.GetSentence();
+    //
+    //   Assert.AreEqual(sentence, result);
+    // }
+
     [TestMethod]
-    public void GetSentence_ReturnsSentence_String()
+    public void GetFindWord_ReturnsFindWord_String()
     {
-      string sentence = "Lets walk the dog";
-      Word newWord = new Word(sentence);
+      string findWord = "puppy";
+      Word newWord = new Word("puppy");
 
-      string result = newWord.GetSentence();
-
-      Assert.AreEqual(sentence, result);
+      string result = newWord.GetFindWord();
+      Assert.AreEqual(findWord, result);
     }
 
   }
