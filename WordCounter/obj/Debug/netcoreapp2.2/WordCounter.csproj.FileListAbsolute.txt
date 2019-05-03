@@ -12,3 +12,12 @@
 /Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.RazorAssemblyInfo.cache
 /Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.RazorAssemblyInfo.cs
 /Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.RazorTargetAssemblyInfo.cache
+/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.2/WordCounter.Views.dll
+/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.2/WordCounter.Views.pdb
+/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.TagHelpers.input.cache
+/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.TagHelpers.output.cache
+/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.RazorCoreGenerate.cache
+/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.RazorTargetAssemblyInfo.cs
+/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.Views.pdb
+/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.csproj.CopyComplete
