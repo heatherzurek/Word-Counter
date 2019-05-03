@@ -1,31 +1,23 @@
 namespace WordCounter.Models
 {
-  public class Word
+  public class RepeatCounter
   {
-    private string _findWord;
-    private int _wordCount = 0;
+    // private string _findWord;
+    // private int _wordCount = 0;
+    private string _word;
+    private string _phrase;
+    private string[] _splitPhrase;
 
-
-    public Word (string findWord)
+    public RepeatCounter (string word, string phrase)
     {
-      _findWord = findWord;
+      _word = word;
+      _phrase = phrase;
+      _splitPhrase = phrase.Split(" ");
     }
 
-    public string GetFindWord()
-    {
-      return _findWord;
-    }
-    //added word count getter
-    public int GetWordCount()
-    {
-      return _wordCount;
-    }
-    //added word count getter
-
-    public void SetFindWord(string newFindWord)
-    {
-      _findWord = newFindWord;
-    }
+    public string Word { get => _word; set => _word = value; }
+    public string Phrase { get => _phrase; set => _phrase = value; }
+    public string SplitPhrase { get => _splitPhrase; set => _splitPhrase = value; }
 
     public int SearchForWord(string userInput)
     {
@@ -42,6 +34,11 @@ namespace WordCounter.Models
 
       }
       return _wordCount;
+    }
+    
+    public static void ClearAll()
+    {
+      _findWord.Clear();
     }
   }
 }
