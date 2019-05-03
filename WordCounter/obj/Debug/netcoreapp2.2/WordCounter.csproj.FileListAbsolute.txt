@@ -21,5 +21,5 @@
 /Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.RazorTargetAssemblyInfo.cs
 /Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.Views.pdb
 /Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.csproj.CopyComplete
-/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/Razor/Views/Words/Index.g.cshtml.cs
-/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/Razor/Views/Words/New.g.cshtml.cs
+/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/Razor/Views/WordCounter/Index.g.cshtml.cs
+/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/Razor/Views/WordCounter/New.g.cshtml.cs

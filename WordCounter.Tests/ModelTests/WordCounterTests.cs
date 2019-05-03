@@ -8,24 +8,24 @@ namespace WordCounter.Tests
   {
 
     [TestMethod]
-    public void RepeatCounterConstructor_CreatesInstanceOfRepeatCounter_RepeatCounter()
+    public void WordConstructor_CreatesInstanceOfWord_Word()
     {
-      RepeatCounter newWord = new Word("ostrich");
-      Assert.AreEqual(typeof(RepeatCounter), newWord.GetType());
+      Word newWord = new Word("ostrich");
+      Assert.AreEqual(typeof(Word), newWord.GetType());
     }
 
     [TestMethod]
-    public void GetWord_ReturnsWord_String()
+    public void GetFindWord_ReturnsFindWord_String()
     {
       string findWord = "wolf";
       Word newWord = new Word("wolf");
 
-      string result = newWord.GetWord();
-      Assert.AreEqual(newWord, result);
+      string result = newWord.GetFindWord();
+      Assert.AreEqual(findWord, result);
     }
 
     [TestMethod]
-    public void SetWord_SetWord_Int()
+    public void SetFindWord_SetFindWord_Int()
     {
         string oldFindWord = "buffalo";
         string newFindWord = "otter";
