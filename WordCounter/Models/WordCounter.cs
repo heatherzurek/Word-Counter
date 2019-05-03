@@ -68,9 +68,9 @@ namespace WordCounter.Models
     {
       int counter = 0;
       string phrase = userInput;
-      string[] userArray = phrase.Split(" ");
+      string[] userPhrase = phrase.Split(" ");
 
-      foreach (string word in userArray)
+      foreach (string word in userPhrase)
       {
         if (word == _word)
         {
