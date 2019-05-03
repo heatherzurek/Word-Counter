@@ -4,7 +4,8 @@ namespace WordCounter.Models
   {
     private string _word;
     private string _phrase;
-    int count = 0;
+    private int _wordCount = 0;
+    // private int _count;
     // private string[] _splitPhrase;
 
     public RepeatCounter (string word, string phrase)
@@ -17,20 +18,42 @@ namespace WordCounter.Models
     public string Word { get => _word; set => _word = value; }
     public string Phrase { get => _phrase; set => _phrase = value; }
 
-    public int Counter(string userInput)
+    public int GetWordCount()
     {
-      // int count = 0;
-      string phrase = userInput;
-      string[] userPhrase = phrase.Split(" ");
+      return _wordCount;
+    }
 
-      foreach (string word in userPhrase)
+    // public int Counter(string userInput)
+    // {
+    //   int count = 0;
+    //   string phrase = userInput;
+    //   string[] userPhrase = phrase.Split(" ");
+    //
+    //   foreach (string word in userPhrase)
+    //   {
+    //     if (word == _word)
+    //     {
+    //       count ++;
+    //     }
+    //   }
+    //   return count;
+    // }
+
+    public int SearchForWord(string userInput)
+    {
+      // int _wordCount = 0;
+      string searchForWord = userInput;
+      string[] searchArray = searchForWord.Split(' ');
+
+      foreach(string element in searchArray)
       {
-        if (word == _word)
+        if(element == _word)
         {
-          count ++;
+          _wordCount ++;
         }
+
       }
-      return count;
+      return _wordCount;
     }
 
   }

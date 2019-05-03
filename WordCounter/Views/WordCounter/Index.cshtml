@@ -8,8 +8,11 @@
 
 <h1>Your Matches:</h1>
 
-@Model.Word
-
+Your Word: @Model.Word<br>
+Your Sentence: @Model.Phrase
+<br>
+Appears in your sentence: @Model.GetWordCount()
+<br>
 <a href="/wordcounter/new">New Word</a>
 
 
