@@ -7,3 +7,8 @@
 /Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.AssemblyInfo.cs
 /Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.dll
 /Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.pdb
+/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.2/WordCounter.runtimeconfig.json
+/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.2/WordCounter.runtimeconfig.dev.json
+/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.RazorAssemblyInfo.cache
+/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.RazorAssemblyInfo.cs
+/Users/heatherzurek/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.RazorTargetAssemblyInfo.cache
