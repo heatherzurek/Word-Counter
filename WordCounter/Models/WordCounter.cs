@@ -29,7 +29,7 @@ namespace WordCounter.Models
 
     public int SearchForWord(string userInput)
     {
-      int _wordCount = 0;
+      // int _wordCount = 0;
       string searchForWord = userInput;
       string[] searchArray = searchForWord.Split(' ');
 
