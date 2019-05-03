@@ -45,9 +45,9 @@ namespace WordCounter.Models
       string searchForWord = userInput;
       string[] searchArray = searchForWord.Split(' ');
 
-      foreach(string element in searchArray)
+      foreach(string word in searchArray)
       {
-        if(element == _word)
+        if(word == _word)
         {
           _wordCount ++;
         }

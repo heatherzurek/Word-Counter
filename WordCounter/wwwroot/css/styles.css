@@ -3,3 +3,7 @@ body {
   background-image: linear-gradient(to right, #66ada5, #9bad66);
   font-family: sans-serif;
 }
+
+.wordcounter {
+  margin-top: 150px;
+}
