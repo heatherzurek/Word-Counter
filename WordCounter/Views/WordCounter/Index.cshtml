@@ -1,19 +1,19 @@
-@using WordCounter.Models
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/styles.css" type="text/css" />
+    <title>WORD X COUNTER</title>
+  </head>
+  <body>
+  <div class="container">
+  <h1>Your Matches:</h1>
 
-<head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="~/css/styles.css" type="text/css" />
-  <title>WORD X COUNTER</title>
-</head>
-<body>
-
-<h1>Your Matches:</h1>
-
-Your Word: @Model.Word<br>
-Your Sentence: @Model.Phrase
-<br>
-Appears in your sentence: @Model.GetCount()
-<br>
-<a href="/wordcounter/new">New Word</a>
-
-</body>
+  <h3>The word <strong>@Model.Word</strong> appears in <strong>@Model.Phrase</strong> <span class="color">@Model.GetCount()</span> times.</h3>
+  <br>
+  <a href="/wordcounter/new">New Word</a>
+    </form>
+    </div>
+    </body>
+</html>
