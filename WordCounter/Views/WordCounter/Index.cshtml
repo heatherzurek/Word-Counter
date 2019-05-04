@@ -1,10 +1,11 @@
 @using WordCounter.Models
 
 <head>
-  <link rel="stylesheet" href="~/css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="~/css/styles.css" type="text/css" />
+  <title>WORD X COUNTER</title>
 </head>
 <body>
-
 
 <h1>Your Matches:</h1>
 
@@ -14,6 +15,5 @@ Your Sentence: @Model.Phrase
 Appears in your sentence: @Model.GetCount()
 <br>
 <a href="/wordcounter/new">New Word</a>
-
 
 </body>

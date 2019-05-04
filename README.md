@@ -1,6 +1,6 @@
 # _Word Counter_
 
-#### _A Word Counter, 4-26-19_
+#### _A Word Counter, 4-26-19 and 5-3-19_
 
 #### _By Heather Zurek_
 
