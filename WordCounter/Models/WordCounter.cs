@@ -22,10 +22,10 @@ namespace WordCounter.Models
 
     public void Counter(string userInput)
     {
-      string searchForWord = userInput;
-      string[] searchArray = searchForWord.Split(' ');
+      string wordIn = userInput;
+      string[] phraseIn = wordIn.Split(' ');
 
-      foreach(string word in searchArray)
+      foreach(string word in phraseIn)
       {
         if(word == _word)
         {
