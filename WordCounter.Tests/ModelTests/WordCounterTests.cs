@@ -1,11 +1,11 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WordCounter.Models;
-
-namespace WordCounter.Tests
-{
-  [TestClass]
-  public class RepeatCounterTest
-  {
+// using Microsoft.VisualStudio.TestTools.UnitTesting;
+// using WordCounter.Models;
+//
+// namespace WordCounter.Tests
+// {
+//   [TestClass]
+//   public class RepeatCounterTest
+//   {
 
     // [TestMethod]
     // public void WordConstructor_CreatesInstanceOfWord_Word()
@@ -34,19 +34,19 @@ namespace WordCounter.Tests
     //     newWord.SetFindWord(newFindWord);
     //     string result = newWord.GetFindWord();
     //     Assert.AreEqual(newFindWord, result);
-    // }
-
-    [TestMethod]
-    public void SearchForWord_SearchStringForWord_Int()
-    {
-      string findWord = "otters";
-      string searchForWord = "so many otters chasing a butterfly, extra otters";
-      Word newWord = new Word(findWord);
-      int expectedOut = 2;
-
-      newWord.SearchForWord(searchForWord);
-      int result = newWord.GetWordCount();
-      Assert.AreEqual(expectedOut, result);
-    }
-  }
-}
+//     // }
+//
+//     [TestMethod]
+//     public void SearchForWord_SearchStringForWord_Int()
+//     {
+//       string findWord = "otters";
+//       string searchForWord = "so many otters chasing a butterfly, extra otters";
+//       Word newWord = new Word(findWord);
+//       int expectedOut = 2;
+//
+//       newWord.SearchForWord(searchForWord);
+//       int result = newWord.GetWordCount();
+//       Assert.AreEqual(expectedOut, result);
+//     }
+//   }
+// }

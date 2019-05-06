@@ -9,22 +9,15 @@ namespace WordCounter.Tests
   [TestClass]
   public class WordCounterControllerTest
   {
-
-    [TestClass]
-    public class WordCounterControllerTest
+    [TestMethod]
+    public void Index_ReturnsCorrectView_True()
     {
-      [TestMethod]
-      public void Index_ReturnsCorrectView_True()
-      {
-        //Arrange
-        WordCounterController controller = new WordCounterController();
+      WordCounterController controller = new WordCounterController();
 
-        //Act
-        ActionResult indexView = controller.Index();
+      ActionResult indexView = controller.New();
 
-        //Assert
-        Assert.IsInstanceOfType(indexView, typeof(ViewResult));
-      }
+      Assert.IsInstanceOfType(indexView, typeof(ViewResult));
+    }
 
   }
 }
